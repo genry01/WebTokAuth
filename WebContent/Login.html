@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=windows-1252"/>
+        <title>Log In</title>
+        <style type="text/css">
+            .formLayout
+            {
+                background-color: #f3f3f3;
+                border: solid 1px #a1a1a1;
+                padding: 10px;
+                width: 310px;
+            }
+            
+            .formLayout label, .formLayout input
+            {
+                display: block;
+                width: 140px;
+                float: left;
+                margin-bottom: 10px;
+            }
+            
+            .formLayout select
+            {
+                display: block;
+                width: 144px;
+                float: left;
+                margin-bottom: 10px;
+            }
+         
+            .formLayout label
+            {
+                text-align: right;
+                padding-right: 20px;
+            }
+         
+            br
+            {
+                clear: left;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="resources/authentication" name="logInForm" class="formLayout" method="POST">
+            <label>Username:</label> <input type="text" name="username"/> <br/>
+            <label>Password:</label> <input type="password" name="password"/> <br/>
+            <label></label>
+            <input type="submit" name="login" value="Log In"><br>
+        </form>
+    </body>
+</html>

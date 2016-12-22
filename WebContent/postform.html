@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=windows-1252"/>
+        <title>postform</title>
+    </head>
+    <body>
+        <form name="myRedirectForm" action="resources/status" method="post">
+            <input name="token" id="token" type="hidden" />
+            <input name="expDate" id="expDate" type="hidden" />
+        </form>
+    </body>
+</html>
+<script>
+    function submitForm() 
+    {
+        var token = getToken();
+        document.getElementById('token').value = token;
+        document.cookie = "token=" + token;
+        document.myRedirectForm.submit();
+    }
+    function getToken()
+    {
+        var result = null,
+        tmp = [];
+        var items = location.search.substr(1).split("&");
+        for (var index = 0; index < items.length; index++) 
+        {
+            tmp = items[index].split("=");
+            if (tmp[0] === "token") 
+                result = decodeURIComponent(tmp[1]);
+        }
+        return result;
+    }
+    window.onload=submitForm;
+</script>
