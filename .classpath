@@ -8,72 +8,67 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="C:/Users/Genry Krichevsky/Desktop/com.mysql.jdbc_5.1.5.jar">
+	<classpathentry kind="lib" path="com.mysql.jdbc_5.1.5.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Genry Krichevsky/Desktop/javax.ws.rs.jar">
+	<classpathentry kind="lib" path="com.sun.mail_1.4.2.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Genry Krichevsky/Desktop/json-20151123.jar">
+	<classpathentry kind="lib" path="commons-codec-1.7.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Genry Krichevsky/Desktop/org-apache-commons-codec.jar">
+	<classpathentry kind="lib" path="javax-inject.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Genry Krichevsky/Desktop/com.sun.mail_1.4.2.jar">
+	<classpathentry kind="lib" path="javax.annotation-api-1.2.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Genry Krichevsky/Desktop/commons-codec-1.7.jar">
+	<classpathentry kind="lib" path="javax.ws.rs-api-2.0.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Genry Krichevsky/Desktop/javax.annotation-api-1.2.jar">
+	<classpathentry kind="lib" path="javax.ws.rs.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/apache-tomee-webprofile-7.0.2/lib/servlet-api.jar">
+	<classpathentry kind="lib" path="json-20151123.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Genry Krichevsky/Desktop/apache-httpcomponents-httpclient.jar">
+	<classpathentry kind="lib" path="org-apache-commons-codec.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Genry Krichevsky/Desktop/cdi-api.jar">
+	<classpathentry kind="lib" path="org.apache.batik.util-1.6.0.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Genry Krichevsky/Desktop/javax.ws.rs-api-2.0.jar">
+	<classpathentry kind="lib" path="org.apache.commons.lang3.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Genry Krichevsky/Desktop/org.apache.batik.util-1.6.0.jar">
+	<classpathentry kind="lib" path="org.springframework.web.servlet-3.0.0.M3.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Genry Krichevsky/Desktop/org.apache.commons.lang3.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Genry Krichevsky/Desktop/org.springframework.web.servlet-3.0.0.M3.jar">
+	<classpathentry kind="lib" path="servlet-api.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
